@@ -20,7 +20,7 @@
             <tbody>
                @foreach($products as $product)
                 <tr>
-                    
+                    <td style="white-space: nowrap;">{{$product->id}}</td>
                     <td><img src="{{asset('images')}}/{{$product->image}}" alt="" width="100" class="img-fluid"></td>
                     <td style="white-space: nowrap;">{{$product->name}}</td>
                     <td style="white-space: nowrap;">{{$product->description}}</td>
