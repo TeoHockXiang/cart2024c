@@ -7,7 +7,7 @@
         <table class="table table-bordered">
             <thead>
                 <tr>
-                    <td>IDe</td>
+                    <td>ID</td>
                     <td>Image</td>
                     <td>Name</td>
                     <td>Description</td>
